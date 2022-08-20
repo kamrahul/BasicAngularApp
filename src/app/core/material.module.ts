@@ -4,6 +4,7 @@ import { MatButtonModule, MatCardModule, MatDialogModule, MatInputModule, MatTab
 
 
 
+
 @NgModule({
 
     imports: [
@@ -30,7 +31,9 @@ import { MatButtonModule, MatCardModule, MatDialogModule, MatInputModule, MatTab
         MatMenuModule,
         MatIconModule,
         MatProgressSpinnerModule
-        ],
+        ]
 
 
 })
+
+export class CustomMaterialModule { }
