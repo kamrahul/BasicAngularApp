@@ -17,7 +17,20 @@ import { MatButtonModule, MatCardModule, MatDialogModule, MatInputModule, MatTab
         MatMenuModule,
         MatIconModule,
         MatProgressSpinnerModule
-        ]
+        ],
+
+    exports: [
+        CommonModule,
+        MatToolbarModule, 
+        MatButtonModule, 
+        MatCardModule, 
+        MatInputModule, 
+        MatDialogModule, 
+        MatTableModule, 
+        MatMenuModule,
+        MatIconModule,
+        MatProgressSpinnerModule
+        ],
 
 
 })
