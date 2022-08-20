@@ -4,4 +4,20 @@ import { MatButtonModule, MatCardModule, MatDialogModule, MatInputModule, MatTab
 
 
 
-@NgModule({})
+@NgModule({
+
+    imports: [
+        CommonModule, 
+        MatToolbarModule,
+        MatButtonModule, 
+        MatCardModule,
+        MatInputModule,
+        MatDialogModule,
+        MatTableModule,
+        MatMenuModule,
+        MatIconModule,
+        MatProgressSpinnerModule
+        ]
+
+
+})
