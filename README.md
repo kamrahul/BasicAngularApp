@@ -1,27 +1,71 @@
-# BasicAngularApp
+ # Install Angular
+ ---
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.3.
 
-## Development server
+ ## Install Node and Npm
+ ---
+ - Go to https://nodejs.org/en/download/
+ - Download the setup 
+ - Install in the machine
+ 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+ ### Check installation
+---
+ - Go to command prompt
+ - Check the versions
 
-## Code scaffolding
+#### Check Node version
+---  
+<code> Rahuls-MacBook-Pro-2:~ rahul$ node -v </code> 
+     
+<code> v16.17.0 </code>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+#### Check Npm version
+---
+ <code> Rahuls-MacBook-Pro-2:~ rahul$ npm -v </code> 
+    
+ <code> 8.15.0 </code>
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+ ## Install Angular  CLI
+ ---
 
-## Running unit tests
+ Install using the below command
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+ <code>
+ sudo npm install -g @angular/cli
+ </code>
 
-## Running end-to-end tests
+ #### Check angular installation
+---
+  <code> Rahuls-MacBook-Pro-2:~ rahul$ ng version </code> 
+    
+ <code> Angular CLI: 14.1.3 <br>
+Node: 16.17.0 <br>
+Package Manager: npm 8.15.0 <br> 
+OS: darwin arm64
+ </code>
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+<br>
 
-## Further help
+ ---
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+ # Angular CLI Commands
+
+ **ng new [project-name]** - Create a new project <br>
+ **ng generate component [name]**- command to generate all the files you need to create a new component.
+ **ng serve** - to start our application in development mode.<br>
+ **ng build** - This command will cause the CLI to build your application and places the output in a directory called "dist" (by default).<br>
+ <br>
+ 
+
+## Aditional parameters for CLI commmands
+
+**--dry-run** - Try things out <br>
+**--skip-install** - Skip installation of external dependencies <br>
+**--skip-tests** - Who needs tests anyway? <br>
+
+
+
