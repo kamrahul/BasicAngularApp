@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
+import { CustomMaterialModule } from './core/material.module';
 import { LoginComponent } from './login/login.component';
 
 @NgModule({
@@ -11,7 +12,8 @@ import { LoginComponent } from './login/login.component';
   ],
   imports: [
     BrowserModule,
-    RouterModule
+    RouterModule,
+    CustomMaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
