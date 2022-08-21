@@ -7,10 +7,23 @@ import { Router } from '@angular/router';
   styleUrls: ['./login.component.sass']
 })
 export class LoginComponent implements OnInit {
+  username: string;
+  password: string;
 
   constructor(private router: Router) { }
 
+
+
   ngOnInit(): void {
   }
+
+  login() : void {
+    if(this.username == 'admin' && this.password == 'admin'){
+     this.router.navigate(["user"]);
+    }else {
+      alert("Invalid credentials");
+    }
+  }
+  
 
 }
